@@ -1,0 +1,211 @@
+body{
+	background-color: #888;
+}
+
+/* Style des boutons*/
+
+div#redbutton{
+
+   	float: left;
+	width: 160px;
+	background: red;
+	height: 745px;
+	border-radius: 100px;
+	transition-property:background-color; 
+	transition-duration: 0.25s;
+	margin-left: 70px;
+}
+
+div#redbutton:hover{
+	background-color: #B30001
+}
+
+div#redbutton:active{
+	background-color: #FF6C6C;
+}
+
+div#pinkbutton{
+
+    
+	float: left;
+	width: 160px;
+	background: pink;
+	height: 745px;
+	margin-left: 25px;
+	border-radius: 100px;
+	transition-property:background-color; 
+	transition-duration: 0.25s;
+}
+
+div#pinkbutton:hover{
+	background-color: #CF6BAC;
+}
+
+div#pinkbutton:active{
+	background-color: lightpink;
+}
+
+div#bluebutton{
+
+    
+	float: left;
+	width: 160px;
+	background: blue;
+	height: 745px;
+	margin-left: 25px;
+	border-radius: 100px;
+	transition-property:background-color; 
+	transition-duration: 0.25s;
+}
+
+div#bluebutton:hover{
+	background-color: #000DAD
+}
+
+div#bluebutton:active{
+	background-color: #6C8FFF;
+}
+
+div#greenbutton{
+	width: 160px;
+	background: green;
+	height: 745px;
+	float: left;
+	margin-left: 50px;
+	border-radius: 100px;
+	transition-property:background-color; 
+	transition-duration: 0.25s;
+}
+
+div#greenbutton:hover{
+	background-color: #104D00
+}
+
+div#greenbutton:active{
+	background-color: #95FF6C;
+}
+
+div#brownbutton{
+
+    
+	float: left;
+	width: 160px;
+	background: brown;
+	height: 745px;
+	margin-left: 25px;
+	border-radius: 100px;
+	transition-property:background-color; 
+	transition-duration: 0.25s;
+}
+
+div#brownbutton:hover{
+	background-color: #820404;
+}
+
+div#brownbutton:active{
+	background-color: #F96969 ;
+}
+
+
+div#yellowbutton{
+	width: 160px;
+	background: yellow;
+	height: 745px;
+	float: left;
+	margin-left: 20px;
+	border-radius: 100px;
+	transition-property:background-color; 
+	transition-duration: 0.25s;
+}
+
+div#yellowbutton:hover{
+	background-color: #C4C301
+}
+
+div#yellowbutton:active{
+	background-color: #F4FF6C;
+}
+
+div#Stats{
+	width: 160px;
+	height: 745px;
+	float: left;
+	border-radius: 100px;
+	margin-left: 50px;
+}
+
+button#start{
+	margin-top: 250px;
+	margin-left: 30px;
+	border-radius: 60px;
+  	background-color: brown; 
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+
+}
+
+button#recommencer{
+	margin-top: 150px;
+	margin-left: 10px;
+	width:150px;
+	height:50px;
+	background: black;
+	color:white;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+
+}
+
+/* Styles de modals */
+
+img#Regles{
+
+	height: 50px;
+	margin-left: 50px;
+}
+
+img#Regles:active{
+
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 3px;
+}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
